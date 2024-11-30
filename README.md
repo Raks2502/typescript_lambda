@@ -23,9 +23,10 @@ This repository contains a monorepo setup using npm workspaces to create and tes
    ```bash
    git clone <repo-url>
    cd <repo-name>
-2. Install all dependencies:
+2. Install all dependencies and run lint:
    ```bash
    npm install
+   npm run lint
 3. running locally:
    ```bash
    cd src/function
