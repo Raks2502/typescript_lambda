@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/Raks2502/typescript_lambda/issues"
   },
-  "homepage": "https://github.com/Raks2502/typescript_lambda#readme"
+  "homepage": "https://github.com/Raks2502/typescript_lambda#readme",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.146",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
 }
