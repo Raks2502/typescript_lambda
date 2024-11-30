@@ -23,9 +23,14 @@ This repository contains a monorepo setup using npm workspaces to create and tes
    ```bash
    git clone <repo-url>
    cd <repo-name>
+2. Install all dependencies:
+   ```bash
+   npm install
+3. running locally:
+   ```bash
+   cd src/function
+   npm run start
+4. Run unit test file:
+   ```bash
+   npm test
 
-2. Install all dependencies & local testing:
-  ```bash
-  npm install
-  cd /src/function
-  npm run start
